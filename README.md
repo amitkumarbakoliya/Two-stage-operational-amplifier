@@ -66,7 +66,7 @@ Simulation results are verified using LTSpice.
           gm(1,2) = 160 uA/V
  	
 
-         (W/L)1,2 = g2m(1,2) / UnCox I5
+         (W/L)1,2 = g^2m(1,2) / UnCox I5
  	
           (W/L)1,2 = 5 
 
@@ -86,7 +86,7 @@ Simulation results are verified using LTSpice.
 
 *	Calculation of (W/L)5,6 –
 
-        (W/L)5,6 = 2 I5 / Un Cox (VDsat)2
+        (W/L)5,6 = 2 I5 / Un Cox (VDsat)^2
  	
         (W/L)5,6 = 12
 
@@ -102,7 +102,7 @@ Simulation results are verified using LTSpice.
   
            (W/L)7 / (W/L)4 = gm,7 / gm,4
   
-           gm,4 =( UpCox(W/L)4)1/2
+           gm,4 =( UpCox(W/L)4)^1/2
   
            (W/L)7 = 172
   
